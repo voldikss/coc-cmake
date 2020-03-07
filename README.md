@@ -19,7 +19,7 @@ coc.nvim extension for cmake language.
 
 ## Commands
 
-- `:CocCommand cmake.onlineHelp [cmake command]`
+- `:CocCommand cmake.onlineHelp`
 
 ## Configuration
 
