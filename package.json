@@ -10,9 +10,9 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github/voldikss/coc-cmake"
+    "url": "https://github.com/voldikss/coc-cmake"
   },
-  "homepage": "https://github/voldikss/coc-cmake#readme",
+  "homepage": "https://github.com/voldikss/coc-cmake#readme",
   "engines": {
     "coc": "^0.0.74"
   },
