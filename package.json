@@ -1,6 +1,6 @@
 {
   "name": "coc-cmake",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "coc.nvim extension for cmake language",
   "main": "lib/index.js",
   "publisher": "voldikss",
