@@ -41,8 +41,8 @@ export function activate(_context: ExtensionContext): void {
     'cmake',
     new CMakeCompletionProvider(),
     [],
+    config<number>('priority'),
     [],
-    config<number>('priority')
   )
 }
 
