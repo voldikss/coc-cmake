@@ -142,6 +142,8 @@ async function onLineHelp(): Promise<void> {
   }
 }
 
+let is_cmake_missing = false;
+
 /// strings Helpers
 function strContains(word, pattern): boolean {
   return word.indexOf(pattern) > -1
@@ -195,8 +197,9 @@ async function cmake(args: string[]): Promise<string> {
       stdout += txt.replace(/\r/gm, '')
     })
     cmd.on("error", error => {
-      if (error && (error as any).code === 'ENOENT') {
-        workspace.showMessage('The "cmake" command is not found in PATH.  Install it or use `cmake.cmakePath` in the workspace settings to define the CMake executable binary.', 'error')
+      if (!is_cmake_missing && error && (error as any).code === 'ENOENT') {
+        is_cmake_missing = true;
+        workspace.showMessage('Install cmake or specify its path via the workspace config `cmake.cmakePath`.', 'error')
       }
       reject()
     })
