@@ -13,15 +13,19 @@ import {
   cmCommandsSuggestions,
   cmModulesSuggestions,
   cmPropertiesSuggestions,
-  cmVariablesSuggestions
+  cmVariablesSuggestions,
 } from '../core'
 
-
 export default class CMakeCompletionProvider implements CompletionItemProvider {
-  provideCompletionItems(document: TextDocument, position: Position): ProviderResult<CompletionItem[]> {
+  provideCompletionItems(
+    document: TextDocument,
+    position: Position
+  ): ProviderResult<CompletionItem[]> {
     const doc = workspace.getDocument(document.uri)
     if (!doc) return []
-    const wordRange = doc.getWordRangeAtPosition(Position.create(position.line, position.character - 1))
+    const wordRange = doc.getWordRangeAtPosition(
+      Position.create(position.line, position.character - 1)
+    )
     if (!wordRange) return []
     const text = document.getText(wordRange)
 
@@ -30,11 +34,15 @@ export default class CMakeCompletionProvider implements CompletionItemProvider {
         cmCommandsSuggestions(text),
         cmVariablesSuggestions(text),
         cmPropertiesSuggestions(text),
-        cmModulesSuggestions(text)
-      ]).then(results => {
-        const suggestions = Array.prototype.concat.apply([], results)
-        resolve(suggestions)
-      }).catch(err => { reject(err) })
+        cmModulesSuggestions(text),
+      ])
+        .then((results) => {
+          const suggestions = Array.prototype.concat.apply([], results)
+          resolve(suggestions)
+        })
+        .catch((err) => {
+          reject(err)
+        })
     })
   }
 

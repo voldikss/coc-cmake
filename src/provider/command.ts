@@ -1,12 +1,12 @@
-import { window, workspace } from "coc.nvim"
+import { window, workspace } from 'coc.nvim'
 import {
   complKind2cmakeType,
   cmCommandsSuggestionsExact,
   cmModulesSuggestionsExact,
   cmPropertiesSuggestionsExact,
   cmVariablesSuggestionsExact,
-  cmake
-} from "../core"
+  cmake,
+} from '../core'
 import opener from 'opener'
 
 // Show Tooltip on over
@@ -21,12 +21,15 @@ export default async function onLineHelp(): Promise<void> {
     currentWord = word
   }
 
-  let result = await window.requestInput('Search on Cmake online documentation', currentWord)
+  let result = await window.requestInput(
+    'Search on Cmake online documentation',
+    currentWord
+  )
   if (result != null) {
     if (result.length === 0) {
       result = currentWord
     }
-    if (result != "") {
+    if (result != '') {
       await cmake_online_help(result)
     }
   }
@@ -40,7 +43,7 @@ export async function cmake_online_help(search: string): Promise<void> {
     cmVariablesSuggestionsExact(search),
     cmModulesSuggestionsExact(search),
     cmPropertiesSuggestionsExact(search),
-  ]).then(results => {
+  ]).then((results) => {
     const suggestions = Array.prototype.concat.apply([], results)
 
     if (suggestions.length == 0) {
@@ -98,7 +101,7 @@ export async function cmake_help_url(): Promise<string> {
         '2.8.2',
         '2.8.1',
         '2.8.0',
-        '2.6'
+        '2.6',
       ]
       if (older_versions.indexOf(version) == -1) {
         version = 'latest/'

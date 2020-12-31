@@ -1,9 +1,4 @@
-import {
-  LanguageClient,
-  LanguageClientOptions,
-  ServerOptions,
-  window
-} from 'coc.nvim'
+import { LanguageClient, LanguageClientOptions, ServerOptions, window } from 'coc.nvim'
 import getConfig from './config'
 import { checkCommand } from './util'
 
