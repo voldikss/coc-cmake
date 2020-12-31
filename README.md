@@ -8,7 +8,8 @@ coc.nvim extension for cmake language.
 ## Features
 
 - Code completion
-- Hover document
+- Code formatting
+- Hover documentation
 - Online document help
 
 ## Install
@@ -28,12 +29,18 @@ coc.nvim extension for cmake language.
   "type": "string",
   "default": "cmake",
   "description": "The path to CMake generator executable"
+},
+"cmake.formatter": {
+  "type": "string",
+  "default": "cmake-format",
+  "description": "The path to [cmake-format](https://github.com/cheshirekow/cmake_format)"
 }
 ```
 
 ## References
 
 - [vs.language.cmake](https://github.com/twxs/vs.language.cmake)
+- [cmake-format](https://github.com/cheshirekow/cmake_format)
 
 ## License
 
