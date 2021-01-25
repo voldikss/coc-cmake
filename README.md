@@ -1,5 +1,8 @@
 # coc-cmake
 
+![publish](https://github.com/voldikss/coc-cmake/workflows/publish/badge.svg)
+[![npm version](https://badge.fury.io/js/coc-cmake.svg)](https://badge.fury.io/js/coc-cmake)
+
 coc.nvim extension for cmake language.
 
 ![](https://user-images.githubusercontent.com/20282795/75767012-06869580-5d7d-11ea-9e89-8b8f173eed96.png)
