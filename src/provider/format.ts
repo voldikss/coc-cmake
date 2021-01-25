@@ -60,7 +60,7 @@ async function format(document: TextDocument, range?: Range): Promise<string> {
         'cmake-format is not installed, install it?'
       )
       if (install) {
-        await window.openTerminal('pip install cmake-format')
+        await window.openTerminal('pip3 install cmake-format')
       }
       return ''
     }
