@@ -40,8 +40,11 @@ export default class CMakeFormattingEditProvider
 
 async function format(document: TextDocument, range?: Range): Promise<string> {
   const formatter = getConfig<string>('formatter')
-  const args = []
+  const args = Array.from(getConfig<Array<string>>('formatter_args'))
   if (!range) {
+    if (args.length != 0){
+      args.push("--")
+    }
     args.push(Uri.parse(document.uri).fsPath)
   } else {
     // write the selected code into a tmp file and invoke formatter

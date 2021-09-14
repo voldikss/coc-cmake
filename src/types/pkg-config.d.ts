@@ -15,6 +15,10 @@ export interface CMake {
    */
   'cmake.formatter'?: string;
   /**
+   * Additional arguments to be passed down to the formatter
+   */
+  'cmake.formatter_args'?: string[];
+  /**
    * Enable language server(https://github.com/regen100/cmake-language-server), Notice that the functionality(completion, formatting, etc.) of lsp and extension builtin can not coexist
    */
   'cmake.lsp.enable'?: boolean;

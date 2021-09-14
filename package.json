@@ -1,6 +1,6 @@
 {
   "name": "coc-cmake",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "coc.nvim extension for cmake language",
   "main": "lib/index.js",
   "publisher": "voldikss",
@@ -43,6 +43,14 @@
           "default": "cmake-format",
           "description": "Path to [cmake-format](https://github.com/cheshirekow/cmake_format)"
         },
+        "cmake.formatter_args": {
+          "type": "array",
+          "default": [],
+          "description": "Additional arguments to be passed down to the formatter",
+          "items": {
+            "type":"string"
+          }
+        },
         "cmake.lsp.enable": {
           "type": "boolean",
           "default": false,
@@ -70,7 +78,7 @@
   "author": "dyzplus@gmail.com",
   "license": "MIT",
   "devDependencies": {
-    "@types/node": "^14.14.10",
+    "@types/node": "^14.17.15",
     "@types/tmp": "^0.2.0",
     "@typescript-eslint/eslint-plugin": "^4.11.1",
     "@typescript-eslint/parser": "^4.11.1",
@@ -78,14 +86,15 @@
     "coc.nvim": "^0.0.80",
     "command-exists": "^1.2.9",
     "eslint": "^7.16.0",
+    "json-schema-to-typescript": "^10.1.2",
+    "npm-run-all": "^4.1.5",
     "opener": "^1.5.2",
     "rimraf": "^3.0.2",
     "tmp": "^0.2.1",
     "ts-loader": "^8.0.12",
+    "tslib": "^1.14.1",
     "tslint": "^6.1.3",
     "typescript": "^4.1.2",
-    "json-schema-to-typescript": "^10.1.2",
-    "npm-run-all": "^4.1.5",
     "webpack": "^5.11.1",
     "webpack-cli": "^4.3.0"
   }
