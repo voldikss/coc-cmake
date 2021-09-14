@@ -39,6 +39,10 @@ Type: <pre><code>string</code></pre>Default: <pre><code>"cmake"</code></pre>
 Type: <pre><code>string</code></pre>Default: <pre><code>"cmake-format"</code></pre>
 </details>
 <details>
+<summary><code>cmake.formatter_args</code>: Additional arguments to be passed down to the formatter.</summary>
+Type: <pre><code>string[]</code></pre>Default: <pre><code>[]</code></pre>
+</details>
+<details>
 <summary><code>cmake.lsp.enable</code>: Enable language server(https://github.com/regen100/cmake-language-server), Notice that the functionality(completion, formatting, etc.) of lsp and extension builtin can not coexist.</summary>
 Type: <pre><code>boolean</code></pre>Default: <pre><code>false</code></pre>
 </details>
@@ -47,6 +51,192 @@ Type: <pre><code>boolean</code></pre>Default: <pre><code>false</code></pre>
 Type: <pre><code>string</code></pre>Default: <pre><code>"cmake-language-server"</code></pre>
 </details>
 <details>
+<summary><code>cmake.lsp.buildDirectory</code>: See https://github.com/regen100/cmake-language-server#configuration.</summary>
+Type: <pre><code>string</code></pre>Default: <pre><code>"build"</code></pre>
+</details>
+
+<!-- prettier-ignore-end -->
+
+<summary><code>cmake.lsp.buildDirectory</code>: See https://github.com/regen100/cmake-language-server#configuration.</summary>
+Type: <pre><code>string</code></pre>Default: <pre><code>"build"</code></pre>
+</details>
+
+<!-- prettier-ignore-end -->
+
+<summary><code>cmake.lsp.buildDirectory</code>: See https://github.com/regen100/cmake-language-server#configuration.</summary>
+Type: <pre><code>string</code></pre>Default: <pre><code>"build"</code></pre>
+</details>
+
+<!-- prettier-ignore-end -->
+
+<summary><code>cmake.lsp.buildDirectory</code>: See https://github.com/regen100/cmake-language-server#configuration.</summary>
+Type: <pre><code>string</code></pre>Default: <pre><code>"build"</code></pre>
+</details>
+
+<!-- prettier-ignore-end -->
+
+<summary><code>cmake.lsp.buildDirectory</code>: See https://github.com/regen100/cmake-language-server#configuration.</summary>
+Type: <pre><code>string</code></pre>Default: <pre><code>"build"</code></pre>
+</details>
+
+<!-- prettier-ignore-end -->
+
+<summary><code>cmake.lsp.buildDirectory</code>: See https://github.com/regen100/cmake-language-server#configuration.</summary>
+Type: <pre><code>string</code></pre>Default: <pre><code>"build"</code></pre>
+</details>
+
+<!-- prettier-ignore-end -->
+
+<summary><code>cmake.lsp.buildDirectory</code>: See https://github.com/regen100/cmake-language-server#configuration.</summary>
+Type: <pre><code>string</code></pre>Default: <pre><code>"build"</code></pre>
+</details>
+
+<!-- prettier-ignore-end -->
+
+<summary><code>cmake.lsp.buildDirectory</code>: See https://github.com/regen100/cmake-language-server#configuration.</summary>
+Type: <pre><code>string</code></pre>Default: <pre><code>"build"</code></pre>
+</details>
+
+<!-- prettier-ignore-end -->
+
+<summary><code>cmake.lsp.buildDirectory</code>: See https://github.com/regen100/cmake-language-server#configuration.</summary>
+Type: <pre><code>string</code></pre>Default: <pre><code>"build"</code></pre>
+</details>
+
+<!-- prettier-ignore-end -->
+
+<summary><code>cmake.lsp.buildDirectory</code>: See https://github.com/regen100/cmake-language-server#configuration.</summary>
+Type: <pre><code>string</code></pre>Default: <pre><code>"build"</code></pre>
+</details>
+
+<!-- prettier-ignore-end -->
+
+<summary><code>cmake.lsp.buildDirectory</code>: See https://github.com/regen100/cmake-language-server#configuration.</summary>
+Type: <pre><code>string</code></pre>Default: <pre><code>"build"</code></pre>
+</details>
+
+<!-- prettier-ignore-end -->
+
+<summary><code>cmake.lsp.buildDirectory</code>: See https://github.com/regen100/cmake-language-server#configuration.</summary>
+Type: <pre><code>string</code></pre>Default: <pre><code>"build"</code></pre>
+</details>
+
+<!-- prettier-ignore-end -->
+
+<summary><code>cmake.lsp.buildDirectory</code>: See https://github.com/regen100/cmake-language-server#configuration.</summary>
+Type: <pre><code>string</code></pre>Default: <pre><code>"build"</code></pre>
+</details>
+
+<!-- prettier-ignore-end -->
+
+<summary><code>cmake.lsp.buildDirectory</code>: See https://github.com/regen100/cmake-language-server#configuration.</summary>
+Type: <pre><code>string</code></pre>Default: <pre><code>"build"</code></pre>
+</details>
+
+<!-- prettier-ignore-end -->
+
+<summary><code>cmake.lsp.buildDirectory</code>: See https://github.com/regen100/cmake-language-server#configuration.</summary>
+Type: <pre><code>string</code></pre>Default: <pre><code>"build"</code></pre>
+</details>
+
+<!-- prettier-ignore-end -->
+
+<summary><code>cmake.lsp.buildDirectory</code>: See https://github.com/regen100/cmake-language-server#configuration.</summary>
+Type: <pre><code>string</code></pre>Default: <pre><code>"build"</code></pre>
+</details>
+
+<!-- prettier-ignore-end -->
+
+<summary><code>cmake.lsp.buildDirectory</code>: See https://github.com/regen100/cmake-language-server#configuration.</summary>
+Type: <pre><code>string</code></pre>Default: <pre><code>"build"</code></pre>
+</details>
+
+<!-- prettier-ignore-end -->
+
+<summary><code>cmake.lsp.buildDirectory</code>: See https://github.com/regen100/cmake-language-server#configuration.</summary>
+Type: <pre><code>string</code></pre>Default: <pre><code>"build"</code></pre>
+</details>
+
+<!-- prettier-ignore-end -->
+
+<summary><code>cmake.lsp.buildDirectory</code>: See https://github.com/regen100/cmake-language-server#configuration.</summary>
+Type: <pre><code>string</code></pre>Default: <pre><code>"build"</code></pre>
+</details>
+
+<!-- prettier-ignore-end -->
+
+<summary><code>cmake.lsp.buildDirectory</code>: See https://github.com/regen100/cmake-language-server#configuration.</summary>
+Type: <pre><code>string</code></pre>Default: <pre><code>"build"</code></pre>
+</details>
+
+<!-- prettier-ignore-end -->
+
+<summary><code>cmake.lsp.buildDirectory</code>: See https://github.com/regen100/cmake-language-server#configuration.</summary>
+Type: <pre><code>string</code></pre>Default: <pre><code>"build"</code></pre>
+</details>
+
+<!-- prettier-ignore-end -->
+
+<summary><code>cmake.lsp.buildDirectory</code>: See https://github.com/regen100/cmake-language-server#configuration.</summary>
+Type: <pre><code>string</code></pre>Default: <pre><code>"build"</code></pre>
+</details>
+
+<!-- prettier-ignore-end -->
+
+<summary><code>cmake.lsp.buildDirectory</code>: See https://github.com/regen100/cmake-language-server#configuration.</summary>
+Type: <pre><code>string</code></pre>Default: <pre><code>"build"</code></pre>
+</details>
+
+<!-- prettier-ignore-end -->
+
+<summary><code>cmake.lsp.buildDirectory</code>: See https://github.com/regen100/cmake-language-server#configuration.</summary>
+Type: <pre><code>string</code></pre>Default: <pre><code>"build"</code></pre>
+</details>
+
+<!-- prettier-ignore-end -->
+
+<summary><code>cmake.lsp.buildDirectory</code>: See https://github.com/regen100/cmake-language-server#configuration.</summary>
+Type: <pre><code>string</code></pre>Default: <pre><code>"build"</code></pre>
+</details>
+
+<!-- prettier-ignore-end -->
+
+<summary><code>cmake.lsp.buildDirectory</code>: See https://github.com/regen100/cmake-language-server#configuration.</summary>
+Type: <pre><code>string</code></pre>Default: <pre><code>"build"</code></pre>
+</details>
+
+<!-- prettier-ignore-end -->
+
+<summary><code>cmake.lsp.buildDirectory</code>: See https://github.com/regen100/cmake-language-server#configuration.</summary>
+Type: <pre><code>string</code></pre>Default: <pre><code>"build"</code></pre>
+</details>
+
+<!-- prettier-ignore-end -->
+
+<summary><code>cmake.lsp.buildDirectory</code>: See https://github.com/regen100/cmake-language-server#configuration.</summary>
+Type: <pre><code>string</code></pre>Default: <pre><code>"build"</code></pre>
+</details>
+
+<!-- prettier-ignore-end -->
+
+<summary><code>cmake.lsp.buildDirectory</code>: See https://github.com/regen100/cmake-language-server#configuration.</summary>
+Type: <pre><code>string</code></pre>Default: <pre><code>"build"</code></pre>
+</details>
+
+<!-- prettier-ignore-end -->
+
+<summary><code>cmake.lsp.buildDirectory</code>: See https://github.com/regen100/cmake-language-server#configuration.</summary>
+Type: <pre><code>string</code></pre>Default: <pre><code>"build"</code></pre>
+</details>
+
+<!-- prettier-ignore-end -->
+
+<summary><code>cmake.lsp.buildDirectory</code>: See https://github.com/regen100/cmake-language-server#configuration.</summary>
+Type: <pre><code>string</code></pre>Default: <pre><code>"build"</code></pre>
+</details>
+
+<!-- prettier-ignore-end -->
+
 <summary><code>cmake.lsp.buildDirectory</code>: See https://github.com/regen100/cmake-language-server#configuration.</summary>
 Type: <pre><code>string</code></pre>Default: <pre><code>"build"</code></pre>
 </details>
